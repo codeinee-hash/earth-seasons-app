@@ -1,6 +1,6 @@
 export const SEASONS = [
-  { name: 'ОСЕНЬ', image: '/images/autumn.png' },
-  { name: 'ЗИМА', image: '/images/winter.png' },
-  { name: 'ВЕСНА', image: '/images/spring.png' },
-  { name: 'ЛЕТО', image: '/images/summer.png' },
+  { name: 'Осень', image: '/images/autumn.png', season: 'autumn' },
+  { name: 'Зима', image: '/images/winter.png', season: 'winter' },
+  { name: 'Весна', image: '/images/spring.png', season: 'spring' },
+  { name: 'Лето', image: '/images/summer.png', season: 'summer' },
 ];
