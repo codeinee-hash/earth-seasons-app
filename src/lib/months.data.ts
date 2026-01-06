@@ -4,7 +4,7 @@ export type MonthData = {
   season: 'winter' | 'spring' | 'summer' | 'autumn';
 };
 
-export const monthsData: MonthData[] = [
+export const MONTHS: MonthData[] = [
   { number: 12, text: 'Декабрь', season: 'winter' },
   { number: 1, text: 'Январь', season: 'winter' },
   { number: 2, text: 'Февраль', season: 'winter' },
