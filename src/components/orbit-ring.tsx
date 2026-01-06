@@ -1,8 +1,4 @@
-export const OrbitRing = () => {
-    // кольцо месяцев
-    return (
-        <div>
-            OrbitRing
-        </div>
-    )
+export function OrbitRing() {
+  // кольцо месяцев
+  return <div>OrbitRing</div>;
 }
