@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Earth Seasons Animation',
-  description: 'Educational animation of Earth orbit and seasons',
+  title: 'OrbitEarth SeasonsOverlay Animation',
+  description: 'Educational animation of OrbitEarth orbit and seasons',
 };
 
 export default function RootLayout({
