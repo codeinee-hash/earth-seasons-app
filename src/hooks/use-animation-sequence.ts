@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { MONTHS } from '@/utils/months.const';
 import { SEASONS } from '@/utils/seasons.const';
+import { displayOrder } from '@/utils/month-sector';
 
 export const useAnimationSequence = () => {
   const [zoomCompleted, setZoomCompleted] = useState(false);
@@ -9,8 +10,6 @@ export const useAnimationSequence = () => {
   const [seasonsCompleted, setSeasonsCompleted] = useState(false);
   const [visibleMonths, setVisibleMonths] = useState(0);
   const [monthNameStep, setMonthNameStep] = useState(-1);
-
-  const displayOrder = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
 
   useEffect(() => {
     if (!seasonsCompleted) return;
